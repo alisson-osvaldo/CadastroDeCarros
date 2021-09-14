@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".DetalhesActivity">
+
+    <TextView
+        android:id="@+id/tvFIPE"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome15"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome15"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="2015" />
+
+    <TextView
+        android:id="@+id/tvModelo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome10"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome10"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="Gol" />
+
+    <TextView
+        android:id="@+id/tvAnoFab"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome11"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome11"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="2015" />
+
+    <TextView
+        android:id="@+id/tvCor"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome12"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome12"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="Branco" />
+
+    <TextView
+        android:id="@+id/tvMotor"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome13"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome13"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="1.6" />
+
+    <TextView
+        android:id="@+id/tvCombustivel"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome14"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome14"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="gasolina" />
+
+    <TextView
+        android:id="@+id/tvMarca"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#49A4EC"
+        app:layout_constraintStart_toStartOf="@+id/tvNome8"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome8"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:text="volkswage" />
+
+    <TextView
+        android:id="@+id/tvNome8"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Marca"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvNome10"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Modelo"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/tvMarca"
+        app:layout_constraintTop_toBottomOf="@+id/tvMarca"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvNome11"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Ano de fabricação"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvModelo"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvNome12"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Cor"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/tvAnoFab"
+        app:layout_constraintTop_toBottomOf="@+id/tvAnoFab"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvNome13"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Motor"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/tvCor"
+        app:layout_constraintTop_toBottomOf="@+id/tvCor"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvNome14"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Tipo do combustivel"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/tvMotor"
+        app:layout_constraintTop_toBottomOf="@+id/tvMotor"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvNome15"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Valor tabela FIPE"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/tvCombustivel"
+        app:layout_constraintTop_toBottomOf="@+id/tvCombustivel"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalhes"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="34sp"
+        android:textColor="#0000CD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
